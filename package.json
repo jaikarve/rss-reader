@@ -1,0 +1,15 @@
+{
+  "name": "rss-reader",
+  "version": "0.0.2",
+  "description": "RSS Feed Reader for University of Utah PoC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jai Karve",
+  "license": "ISC",
+  "dependencies": {
+    "kinvey-flex-sdk": "^3.2.1",
+    "rss-parser": "^3.6.2"
+  }
+}
