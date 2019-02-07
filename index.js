@@ -20,4 +20,5 @@ sdk.service((err, flex) => {
 
   rssEvents.onGetAll(eventHandlers.listHandler);
   rssEvents.onGetCount(eventHandlers.countHandler);
+  rssEvents.onGetById(eventHandlers.fetchHandler);
 });
